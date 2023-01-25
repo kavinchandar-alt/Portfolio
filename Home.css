@@ -2,17 +2,15 @@
 
 @media (max-width: 768px) {
     .logo{
-      margin-left: 200px;
-    }
-    body::before{
-      display: block;
-      content: "";
-      height: 120px;
-    }
-    
-    
+      margin-left: 100%;
+    }  
   }
 
+  @media (min-width: 1366px){
+    #ducation .card{
+      width: 50px;
+    }
+  }
 
 
 /*body*/
@@ -33,6 +31,10 @@ body::before{
     box-sizing: border-box;
   }
 
+.container{
+    width: 80%;
+    height: auto;
+}
 
 /*navbar*/
 #navmenu a:hover, i:hover{
@@ -74,3 +76,21 @@ body::before{
   height: 30px;
 }
 
+/* Home Page */
+
+
+#education-flexbox .card{
+  background-color: black;
+  border: 1px solid aquamarine;
+  height: auto;
+  width: 1000px;
+  overflow: hidden;
+  flex-shrink: 1;
+  
+}
+
+
+#education-flexbox .card p{
+  margin: 0px;
+  padding: 0px;;
+}

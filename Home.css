@@ -192,12 +192,12 @@ body::before{
 }
 
 #wrapper > .shape:nth-child(6) {
-  background-color: #e07a5f;
+  background-color: #fdf0d5;
   z-index: 2;
 }
 
 #wrapper > .shape:nth-child(7) {
-  background-color: #81b29a;
+  background-color: #a8dadc;
   z-index: 2;
 }
 

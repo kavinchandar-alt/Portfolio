@@ -447,9 +447,20 @@ body.menu-toggled > .meta-link > span {
 
 
 .card-item{
-
   min-height: 350px;
   height: auto;
   width: 350px;
   padding-left: 10px;
+}
+
+.accolade-item{
+  min-height: 350px;
+  height: auto;
+  max-width: 900px;
+  padding-left: 10px;
+}
+
+.accolade-container{
+  width: 90%;
+  height: auto;
 }

@@ -102,12 +102,13 @@ body::before{
 }
 
 .glass{
-  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+  background: linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.2));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,255,0.18); 
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 }
+
 
 @keyframes rotate{
     from {
@@ -126,7 +127,7 @@ body::before{
 
 #blob{
   background-color: white;
-  height: 150px;
+  height: 300px;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
@@ -140,6 +141,7 @@ body::before{
   );
   animation: rotate 20s infinite; 
   filter: blur(200px);
+  opacity: 0.3;
 }
 
 
@@ -164,6 +166,7 @@ body::before{
   transition: left, top, height, width, border-radius;
   transition-duration: 750ms;
   transition-timing-function: ease-in-out;
+  display: block;
 }
 
 #wrapper > .shape:nth-child(1) {
@@ -440,4 +443,13 @@ body.menu-toggled > .meta-link > span {
   color: white;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
+}
+
+
+.card-item{
+
+  min-height: 350px;
+  height: auto;
+  width: 350px;
+  padding-left: 10px;
 }

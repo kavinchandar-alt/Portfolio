@@ -17,7 +17,7 @@
         <!--Home-->
         <header id="Home">
             <!--navbar-->
-            <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" id="nav-bar" style="background-color: black;">
                 <div class="container">
                     <a href="#Home" class="navbar-brand ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-moon text-light svg-large logo" viewBox="0 0 16 16">
@@ -39,10 +39,10 @@
                                 <a href="#Education" class="nav-link">Education</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#AcademicProjects" class="nav-link">Projects</a>
+                                <a href="#Projects" class="nav-link">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#TechnicalSkills" class="nav-link">Skills</a>
+                                <a href="#Skills" class="nav-link">Skills</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#Achievements" class="nav-link">Achievements</a>
@@ -74,11 +74,7 @@
                               </div>
                             <div class="nav-item social-container-icon" id="contact">
                                 
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Contact
-                                </button>
-
+                                
                             </div>
                         </div>
                     </div>
@@ -117,24 +113,34 @@
         <!--Menu-->
         <section class="BigBox">
             <div id="wrapper" data-configuration="1" data-roundness="1">
-                <div class="shape"></div>
-                <div class="shape"></div>
-                <div class="shape"></div>
-                <div class="shape"></div>
-                <div class="shape"></div>
-                <div class="shape"></div>
-                <div class="shape"></div>
+                <a href="#show-case" class="shape"></a>
+                <a href="#Education" class="shape"></a>
+                <a href="#Projects" class="shape"></a>
+                <a href="#" class="shape"></a>
+                <a href="#" class="shape"></a>
+                <a href="#" class="shape"></a>
+                <a href="#" class="shape"></a>
             </div>
          </section>
 
          <!--showcase-->
          <section class="text-light p-5 text-center text-sm-start" id="show-case">
+            <div class="container text-center pb-3">
+                <h1>Who Am I?</h1>
+            </div>
             <div class="container">
                 <div class="row d-md-flex align-items-center justify-content-between">
                     <div class="col-md">
                         <h1 class="lead">Hi, I am</h1> 
                         <p class="h1"><span style="color:aquamarine ;" class="fs-1 fw-light">Kavin Chandar Arthanari Eswaran</span></p>
-                        <p class="lead">I make stuff</p>
+                        <p class="lead">I look forward to exciting opportunities to create meaningful experiences for all through good design and development. I am proud of my inquisitive and tenacious nature to constantly learn and improve on new ideas.
+                            As such, I seek challenges. I greatly value constructive criticism and feedback.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Say Hi!
+                        </button>
+
                     </div>
                     <div class="col-md">
                         <img class="img-fluid rounded float-end" src="Images/Kavin.jpg" alt="Kavin">
@@ -145,8 +151,84 @@
 
          
 
+         
+
+        <!--Projects-->
+         <section class="p-5 mt-5 mb-5" id="Projects">
+            <div class="container text-light text-center pb-3">
+                <h1>What I have been upto?</h1>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="cards d-flex flex-wrap gap-3 justify-content-center align-items-center text-light">
+                    <div class="card card-item glass">
+                        <div class="text-start">
+                            <h1 class="lead mt-3">Event Search Application | <a style="color: #ff006e" href="https://hw8-event-app.wl.r.appspot.com/" target="_blank">App Link</a><br></h1>
+                            <span class="lead" style="color: aqua;">Jan 2023-April 2023</span><br>
+                            <span class="lead" style="color: aquamarine;">Engineered a responsive web app to display, favorite, and filter Ticketmaster event information to aid end users.</span><br>
+                            <span class="lead" style="color: wheat;">Technology Stack: Angular, TypeScript, Node.js/JavaScript, ExpressJs, Flask/Python, Ajax, Rest APIs, GCP</span>
+                        </div>
+                    </div>
+                    <div class="card card-item glass">
+                        <div class="text-start">
+                            <h1 class="lead mt-3">Write!</h1>
+                            <span class="lead" style="color: aqua;">May 2022 -Jun 2022</span><br>
+                            <span class="lead" style="color: aquamarine;">Built a note-taking web app with user account authentication with complete CRUD functionality</span><br>
+                            <span class="lead" style="color: wheat;">Technology Stack: Python, Flask, HTML, CSS, JS, Bootstrap, SQLite</span>
+                        </div>
+                    </div>
+                    <div class="card card-item glass">
+                        <div class="text-start">
+                            <h1 class="lead mt-3">Analysis of pandemic control measures with computer vision | <a style="color: #ff006e" href="https://github.com/Kavinchandar/Pandemic-Control-Measures-and-Analysis-using-computer-vision/blob/main/Misc%20Documents/Major%20Project%20Research%20paper.pdf" target="_blank">Paper</a><br></h1>
+                            <span class="lead" style="color: aqua;">Jan 2022-Apr 2022</span><br>
+                            <span class="lead" style="color: aquamarine;">Implemented a system to classify face-mask usage and social distancing measures using object classification.</span><br>
+                            <span class="lead" style="color: wheat;">Technology Stack: Python, OpenCV, Mediapipe, dlib</span>
+                        </div>
+                    </div>
+                    <div class="card card-item glass">
+                        <div class="text-start">
+                            <h1 class="lead mt-3">Hand gesture recognition for Human-computer Interaction | <a style="color: #ff006e" href="https://github.com/Kavinchandar/Hand-Gesture-recognition-for-Human-computer-interaction/blob/main/Research%20paper%20-%20LNCS%20format.pdf" target="_blank">Paper</a><br></h1>
+                            <span class="lead" style="color: aqua;">Aug 2021-Nov 2021</span><br>
+                            <span class="lead" style="color: aquamarine;">Constructed a virtual mouse and a gesture-based volume controller with computer vision.</span><br>
+                            <span class="lead" style="color: aquamarine;">Won the <a style="color: #ff006e" href="https://github.com/Kavinchandar/Hand-Gesture-recognition-for-Human-computer-interaction/blob/main/BEST%20PAPER%20AWARD%20CERTIFICATE_KAVIN.pdf" target="_blank">Best paper award</a> at the IconDeepCOM-2022 conference.</span><br>
+                            <span class="lead" style="color: wheat;">Technology Stack: Python, OpenCV, Mediapipe, dlib</span>
+                        </div>
+                    </div>
+                    <div class="card card-item glass">
+                        <div class="text-start">
+                            <h1 class="lead mt-3">Tripppy</h1>
+                            <span class="lead" style="color: aqua;">Jan 2021 - March 2021</span><br>
+                            <span class="lead" style="color: aquamarine;">Created an interactive travel website product to display essential tourist spots to aid tourists.</span><br>
+                            <span class="lead" style="color: wheat;">Technology Stack: HTML, CSS, JavaScipt, Ajax, Adobe XD, SQL</span>
+                        </div>
+                    </div>
+                    <div class="card card-item glass">
+                        <div class="text-start">
+                            <h1 class="lead mt-3">Hymn</h1>
+                            <span class="lead" style="color: aqua;">Aug 2020 - Sep 2020</span><br>
+                            <span class="lead" style="color: aquamarine;">Designed a Music Web Application to sort and play songs based on moods and genres at (Hacksprint v2.0).</span><br>
+                            <span class="lead" style="color: wheat;">Technology Stack: HTML, CSS, JavaScript, Ajax, Adobe XD, SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+         </section>
+         
+         <!--Skills-->
+         <section>
+        
+         </section>
+
+         <!--Achievements-->
+         <section>
+
+         </section>
+
          <!--educations -->
-         <section class="text-light p-5 text-center text-sm-start" id="Education">
+         <section class="text-light p-5 mb-5 text-center text-sm-start" id="Education">
+            <div class="container text-center pb-3">
+                <h1>Where have I been?</h1>
+            </div>
             <div class="container">
                         <div class=" d-md-flex row justify-content-center align-items-center g-3" id="education-flexbox">
                             <div class="glass card card-1 rounded">
@@ -154,7 +236,7 @@
                                     <h1 class="lead mt-3">University of Southern California - Los Angeles, CA, US</h1>
                                     <p class="lead"><span class="lead" style="color: aquamarine;">Masters in Science - Computer Science at Viterbi School of Engineering (Aug 2022-May 2024)</span></p>
                                     <p class="lead"><span style="color: aqua;">GPA: 3.5 / 4.0</span></p>
-                                    <p class="lead mb-3"><span style="font-style: italic;">Relevant Coursework: Analysis of Algorithms, Database Systems, Machine Learning for Data Science, Web
+                                    <p class="lead mb-3"><span style="font-style: italic;">Coursework: Analysis of Algorithms, Database Systems, Machine Learning for Data Science, Web
                                         Technologies</span></p>
                                 </div>
                                 
@@ -164,7 +246,7 @@
                                     <h1 class="lead mt-3">SRM Institute of Science and Technology - Chennai, TN, India</h1>
                                     <p class="lead"><span class="lead" style="color: aquamarine;">Bachelor of Technology - Computer Science and Engineering (May 2018-May 2022 )</span></p>
                                     <p class="lead"><span style="color: aqua;">GPA: 9.41 / 10.0</span></p>
-                                    <p class="lead mb-3"><span style="font-style: italic;">Relevant Coursework: Data Structures and Algorithms, Object-Oriented Design and Programming, Database
+                                    <p class="lead mb-3"><span style="font-style: italic;">Coursework: Data Structures and Algorithms, Object-Oriented Design and Programming, Database
                                         Management Systems, Data Mining, and Artificial Intelligence</span></p>
                                 </div>
                             </div>
@@ -172,18 +254,13 @@
                                 <div class="text-start">
                                     <h1 class="lead mt-3">Padma Seshadri Bala Bhavan Senior Secondary School - Chennai, TN, India</h1>
                                     <p class="lead"><span class="lead" style="color: aquamarine;">School (June 2003-May 2018)</span></p>
-                                    <p class="lead mb-3"><span style="color: aqua;">10th GPA: 9.6 / 10.0 12th Percentage: 82%</span></p>
+                                    <p class="lead mb-3"><span style="color: aqua; ">10th GPA: 9.6 / 10.0 12th Percentage: 82%</span></p>
                                 </div>
                             </div>
                         </div>
             </div>
          </section>
-
-        
          
-         <!--Skills-->
-
-         <!--Achievements-->
          <!--blob-->
         <div id="blob"></div>
 
